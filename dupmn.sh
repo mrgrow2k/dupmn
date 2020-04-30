@@ -544,9 +544,9 @@ function cmd_install() {
 			\n${BLUE}$COIN_NAME${NC} duplicated masternode ${CYAN}number $1${NC} should be now up and trying to sync with the blockchain.\
 			\nThe duplicated masternode uses the $([[ $show_ip ]] && echo "IP:PORT ${YELLOW}$show_ip:$([[ $mn_port ]] && echo $mn_port || echo ????)${NC}" || echo "same IP and PORT than the original one").\
 			\nRPC port is ${MAGENTA}$NEW_RPC${NC}, this one is used to send commands to the wallet, DON'T put it in 'masternode.conf' (other programs might want to use this port which causes a conflict, but you can change it with ${MAGENTA}dupmn rpcchange $PROFILE_NAME $1 PORT_NUMBER${NC}).\
-			\nStart:              ${RED}systemctl start   $COIN_NAME-$1.service${NC}\
-			\nStop:               ${RED}systemctl stop    $COIN_NAME-$1.service${NC}\
-			\nStart on reboot:    ${RED}systemctl enable  $COIN_NAME-$1.service${NC}\
+			\nStart:              ${RED}systemctl start $COIN_NAME-$1.service${NC}\
+			\nStop:               ${RED}systemctl stop $COIN_NAME-$1.service${NC}\
+			\nStart on reboot:    ${RED}systemctl enable $COIN_NAME-$1.service${NC}\
 			\nNo start on reboot: ${RED}systemctl disable $COIN_NAME-$1.service${NC}\
 			\n(Currently configured to start on reboot)\
 			\nDUPLICATED MASTERNODE PRIVATEKEY is: ${GREEN}$NEW_KEY${NC}\
