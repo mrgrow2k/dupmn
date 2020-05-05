@@ -84,10 +84,10 @@ Every instance has it own private key, it will be shown after installing the new
 
 Now you can manage every instance like this:
 ```
-ragna-cli-1 masternode status
-ragna-cli-2 getblockcount
-ragna-cli-3 getinfo
-ragna-cli-all masternode status
+ragnarok-cli-1 masternode status
+ragnarok-cli-2 getblockcount
+ragnarok-cli-3 getinfo
+ragnarok-cli-all masternode status
 ```
 There's also a `ragna-cli-0`, but is just a reference to the 'main node', not a created one with dupmn.
 
