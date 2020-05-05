@@ -108,7 +108,7 @@ MN04 123.45.67.89:8853 4yUJe3fzQ8t11ukVULUrKfHUswujAwRWi33tTXp41rsEc9PENM8 6dbff
 ```
 Using `dupmn install ragna` will show you the masternode private key for that instance, the transaction must be obviosuly different for each masternode, you can't use the same transaction to run 2 masternodes, even if they're in the same VPS.
 
-*Note: `dupmn install ragna` will show you also a different rpc port, this is NOT the port that you have to add in the `masternode.conf` file, every masternode will use the same port (8853 in case of MCPCoin).*  
+*Note: `dupmn install ragna` will show you also a different rpc port, this is NOT the port that you have to add in the `masternode.conf` file, every masternode will use the same port (8853 in case of Ragnarok).*  
 
 # <a name ="profile-creation"></a> Profile creation
 
