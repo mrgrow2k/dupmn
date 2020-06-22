@@ -7,5 +7,6 @@ SNO        : wget -q https://raw.githubusercontent.com/mrgrow2k/dupmn/master/pro
 PHON       : wget -q https://raw.githubusercontent.com/mrgrow2k/dupmn/master/profiles/phonecoin.dmn
 PSC        : wget -q https://raw.githubusercontent.com/mrgrow2k/dupmn/master/profiles/PrimeStone.dmn
 RAGNA      : wget -q https://raw.githubusercontent.com/mrgrow2k/dupmn/master/profiles/ragna.dmn
+SSS        : wget -q https://raw.githubusercontent.com/mrgrow2k/dupmn/master/profiles/sss.dmn
 ```
 Check [Profile Creation](https://github.com/mrgrow2k/dupmn#-profile-creation) to create your own profiles.
